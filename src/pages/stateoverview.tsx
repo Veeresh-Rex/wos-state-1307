@@ -14,46 +14,48 @@ export default function StateOverview() {
             Welcome to State 1307
           </h3>
           <p className='text-lg mb-6'>
-            In the frozen wastelands of the northern territories, State 1307 has
-            risen as a beacon of power and unity. Our alliance has conquered the
-            harshest winter battlefields and emerged victorious against all
-            odds.
+            In the whiteout survival State 1307 has risen as a beacon of power
+            and unity. Our state has conquered the harshest winter battlefields
+            and emerged victorious against all odds.
           </p>
 
           <p className='text-lg mb-6'>
-            With over 500 active warriors and 12 powerful clans, we control 60%
-            of the map&apos;s strategic resources and have successfully defended
-            our territory for 120 consecutive days.
+            With over 500 active warriors and 6 powerful alliances, defended our
+            territory for 120 consecutive days.
           </p>
 
           <div className='space-y-4 mt-8'>
             <div>
               <div className='flex justify-between mb-1'>
-                <span>Territory Control</span>
-                <span>60%</span>
-              </div>
-              <div className='w-full bg-gray-700 rounded-full h-2'>
-                <div className='bg-gradient-to-r from-primary to-secondary h-2 rounded-full w-60' />
-              </div>
-            </div>
-
-            <div>
-              <div className='flex justify-between mb-1'>
-                <span>Alliance Power</span>
-                <span>85%</span>
-              </div>
-              <div className='w-full bg-gray-700 rounded-full h-2'>
-                <div className='bg-gradient-to-r from-primary to-secondary h-2 rounded-full w-85' />
+                <span>SvS Vicitoris:</span>
+                <span>
+                  <i className='fas fa-star mr-1 text-yellow-400'></i>
+                  <i className='fas fa-star mr-1 text-yellow-400'></i>
+                  <i className='fas fa-star mr-1 text-yellow-400'></i>
+                  <i className='fas fa-star mr-1 text-yellow-400'></i>
+                  <i className='fas fa-star mr-1 text-yellow-400'></i>
+                  <i className='fas fa-star mr-1 text-yellow-400'></i>
+                </span>
               </div>
             </div>
 
             <div>
               <div className='flex justify-between mb-1'>
-                <span>Resource Production</span>
-                <span>72%</span>
+                <span>Created Date</span>
+                <span>09/06/2024 - 17:45:03 UTC</span>
               </div>
-              <div className='w-full bg-gray-700 rounded-full h-2'>
-                <div className='bg-gradient-to-r from-primary to-secondary h-2 rounded-full w-72' />
+            </div>
+
+            <div>
+              <div className='flex justify-between mb-1'>
+                <span>Server Age</span>
+                <span>368 days</span>
+              </div>
+            </div>
+            <div>
+              <div className='flex justify-between mb-1'>
+                <span>Server GEN</span>
+                <span>6th</span>
               </div>
             </div>
           </div>
@@ -90,7 +92,7 @@ export default function StateOverview() {
                   textAnchor='middle'
                   x='50%'
                   y='65%'>
-                  WINTER DOMINANCE
+                  WHITEOUT SURVIVAL
                 </text>
               </svg>
             </div>
@@ -105,12 +107,9 @@ export default function StateOverview() {
           <div className='w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4'>
             <i className='fas fa-trophy text-3xl text-primary' />
           </div>
-          <h4 className='text-xl font-bold mb-2 font-title'>
-            6 SvS Victories
-          </h4>
+          <h4 className='text-xl font-bold mb-2 font-title'>6 SvS Victories</h4>
           <p>
-            Undefeated in the last 6 SvS wars across the winter
-            battlefield.
+            Undefeated in the last 6 SvS wars across the winter battlefield.
           </p>
         </div>
 
@@ -131,7 +130,9 @@ export default function StateOverview() {
           <div className='w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4'>
             <i className='fas fa-shield-alt text-3xl text-primary' />
           </div>
-          <h4 className='text-xl font-bold mb-2 font-title'>6 Powerfull Alliance </h4>
+          <h4 className='text-xl font-bold mb-2 font-title'>
+            6 Powerfull Alliance
+          </h4>
           <p>
             Dominating the strategic resources and key positions across the
             battlefield.
