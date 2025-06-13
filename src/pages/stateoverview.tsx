@@ -1,4 +1,18 @@
+import { useState, useEffect } from 'react';
+
 export default function StateOverview() {
+  const [daysDiff, setDaysDiff] = useState<number>(0);
+
+  useEffect(() => {
+    const targetDate: Date = new Date('2024-06-09');
+    const today: Date = new Date();
+
+    const diffInMs: number = today.getTime() - targetDate.getTime();
+    const diffInDays: number = Math.floor(diffInMs / (1000 * 60 * 60 * 24));
+
+    setDaysDiff(diffInDays);
+  }, []);
+
   return (
     <section className='bg-dark' id='overview'>
       <div className='text-center mb-16'>
@@ -49,12 +63,12 @@ export default function StateOverview() {
             <div>
               <div className='flex justify-between mb-1'>
                 <span>Server Age</span>
-                <span>368 days</span>
+                <span>{daysDiff} days</span>
               </div>
             </div>
             <div>
               <div className='flex justify-between mb-1'>
-                <span>Server GEN</span>
+                <span>Server Gen</span>
                 <span>6th</span>
               </div>
             </div>

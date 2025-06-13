@@ -2,7 +2,7 @@ import { BowArrow, Flame, Panda, Swords } from 'lucide-react';
 
 export default function AlliancePage() {
   return (
-    <section id='clans' className='py-20 px-4 bg-dark-darker relative'>
+    <section id='alliance' className='py-20 px-4 bg-dark-darker relative'>
       <div className='container mx-auto'>
         <div className='text-center mb-16'>
           <h2 className='text-4xl font-bold mb-4 font-title glow-text'>
@@ -73,6 +73,24 @@ export default function AlliancePage() {
                 Fearless warriors who thrive in the coldest conditions.
                 Specialists in breaking enemy fortifications.
               </p>
+                  <p className='mb-4 flex items-center gap-2'>
+                <Flame size={20} />
+                <span>Crazy Joy: -</span>
+              </p>
+              <p className='mb-4 flex items-center gap-2'>
+                <Panda size={20} />
+                <span>Bear: -</span>
+              </p>
+
+              <p className='mb-4 flex items-center gap-2'>
+                <Swords size={20} />
+                <span>Foundry: -</span>
+              </p>
+
+              <p className='mb-4 flex items-center gap-2'>
+                <BowArrow size={20} />
+                <span>Canyon Clash: -</span>
+              </p>
               <div className='flex justify-between text-sm'>
                 <span>
                   <i className='fas fa-user mr-1'></i> 100 Members
@@ -97,6 +115,24 @@ export default function AlliancePage() {
               <p className='mb-4'>
                 Masters of defensive strategy, protecting our territories during
                 the harshest blizzards.
+              </p>
+                  <p className='mb-4 flex items-center gap-2'>
+                <Flame size={20} />
+                <span>Crazy Joy: -</span>
+              </p>
+              <p className='mb-4 flex items-center gap-2'>
+                <Panda size={20} />
+                <span>Bear: -</span>
+              </p>
+
+              <p className='mb-4 flex items-center gap-2'>
+                <Swords size={20} />
+                <span>Foundry: -</span>
+              </p>
+
+              <p className='mb-4 flex items-center gap-2'>
+                <BowArrow size={20} />
+                <span>Canyon Clash: -</span>
               </p>
               <div className='flex justify-between text-sm'>
                 <span>
@@ -123,6 +159,24 @@ export default function AlliancePage() {
                 Stealth specialists who excel at reconnaissance and ambush
                 tactics in snowy conditions.
               </p>
+                  <p className='mb-4 flex items-center gap-2'>
+                <Flame size={20} />
+                <span>Crazy Joy: -</span>
+              </p>
+              <p className='mb-4 flex items-center gap-2'>
+                <Panda size={20} />
+                <span>Bear: -</span>
+              </p>
+
+              <p className='mb-4 flex items-center gap-2'>
+                <Swords size={20} />
+                <span>Foundry: -</span>
+              </p>
+
+              <p className='mb-4 flex items-center gap-2'>
+                <BowArrow size={20} />
+                <span>Canyon Clash: -</span>
+              </p>
               <div className='flex justify-between text-sm'>
                 <span>
                   <i className='fas fa-user mr-1'></i> 79 Members
@@ -148,6 +202,24 @@ export default function AlliancePage() {
                 Close-combat specialists with unmatched skill in winter warfare
                 and resource acquisition.
               </p>
+                  <p className='mb-4 flex items-center gap-2'>
+                <Flame size={20} />
+                <span>Crazy Joy: -</span>
+              </p>
+              <p className='mb-4 flex items-center gap-2'>
+                <Panda size={20} />
+                <span>Bear: -</span>
+              </p>
+
+              <p className='mb-4 flex items-center gap-2'>
+                <Swords size={20} />
+                <span>Foundry: -</span>
+              </p>
+
+              <p className='mb-4 flex items-center gap-2'>
+                <BowArrow size={20} />
+                <span>Canyon Clash: -</span>
+              </p>
               <div className='flex justify-between text-sm'>
                 <span>
                   <i className='fas fa-user mr-1'></i> 54 Members
@@ -172,6 +244,24 @@ export default function AlliancePage() {
               <p className='mb-4'>
                 Strategic thinkers and tacticians who coordinate our
                 alliance&apos;s movements across the battlefield.
+              </p>
+                  <p className='mb-4 flex items-center gap-2'>
+                <Flame size={20} />
+                <span>Crazy Joy: -</span>
+              </p>
+              <p className='mb-4 flex items-center gap-2'>
+                <Panda size={20} />
+                <span>Bear: -</span>
+              </p>
+
+              <p className='mb-4 flex items-center gap-2'>
+                <Swords size={20} />
+                <span>Foundry: -</span>
+              </p>
+
+              <p className='mb-4 flex items-center gap-2'>
+                <BowArrow size={20} />
+                <span>Canyon Clash: -</span>
               </p>
               <div className='flex justify-between text-sm'>
                 <span>
