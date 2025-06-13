@@ -9,8 +9,7 @@ export default function Homepage() {
           WOS STATE 1307
         </h1>
         <p className='text-xl md:text-2xl mb-8 max-w-3xl mx-auto text-blue-100'>
-          United we stand, divided we fall. The strongest alliance in the winter
-          battlefield.
+          United we stand, divided we fall. One of the strongest state in the Whiteout Survival.
         </p>
         <div className='flex justify-center space-x-4'>
           <Button
