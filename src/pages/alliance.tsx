@@ -2,7 +2,7 @@ import { BowArrow, Flame, Panda, Swords } from 'lucide-react';
 
 export default function AlliancePage() {
   return (
-    <section id='alliance' className='py-20 px-4 bg-dark-darker relative'>
+    <section id='alliances' className='py-20 px-4 bg-dark-darker relative'>
       <div className='container mx-auto'>
         <div className='text-center mb-16'>
           <h2 className='text-4xl font-bold mb-4 font-title glow-text'>

@@ -1,5 +1,6 @@
 import { Info, UserPlus } from 'lucide-react';
 import { Button } from '@heroui/button';
+import { Link } from '@heroui/link';
 
 export default function Homepage() {
   return (
@@ -18,8 +19,10 @@ export default function Homepage() {
             Join Alliance
           </Button>
           <Button
+            as={Link}
             className='bg-transparent border border-primary text-primary hover:bg-primary/10 font-bold py-6 px-8 rounded-md transition-all duration-300 flex items-center'
-            startContent={<Info />}>
+            startContent={<Info />}
+            href="#overview">
             More Info
           </Button>
         </div>
