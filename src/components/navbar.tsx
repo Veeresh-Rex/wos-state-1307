@@ -23,6 +23,7 @@ export const Navbar = () => {
       <NavbarContent className="sm:flex gap-4 text-white" justify="center">
         <NavbarItem>
           <Link
+            as="button"
             className="text-secondry hover:text-primary transition-colors duration-300"
             href="#overview"
           >
@@ -30,12 +31,12 @@ export const Navbar = () => {
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link
+          <a
             className="text-secondry hover:text-primary transition-colors duration-300"
             href="#alliances"
           >
             Alliances
-          </Link>
+          </a>
         </NavbarItem>
         {/* <NavbarItem>
           <Link
