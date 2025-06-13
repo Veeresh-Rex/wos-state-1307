@@ -1,3 +1,4 @@
+import AllianceCard from '@/components/allianceCard';
 import { BowArrow, Flame, Panda, Swords } from 'lucide-react';
 
 export default function AlliancePage() {
@@ -16,264 +17,77 @@ export default function AlliancePage() {
         </div>
 
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
-          <div className='frost-glass rounded-lg overflow-hidden transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-primary/30'>
-            <div className='h-3 bg-gradient-to-r from-primary to-secondary'></div>
-            <div className='p-6'>
-              <div className='flex items-center mb-4'>
-                <div className='hexagon w-12 h-12 flex items-center justify-center mr-3'>
-                  <span className='text-primary font-bold'>DRS</span>
-                </div>
-                <h3 className='text-xl font-bold font-title'>DarkStar</h3>
-              </div>
-              <p className='mb-4'>
-                Elite strike force specializing in rapid assaults across frozen
-                terrain. Known for their coordinated pack tactics.
-              </p>
-              <p className='mb-4 flex items-center gap-2'>
-                <Flame size={20} />
-                <span>Crazy Joy: 15 UTC</span>
-              </p>
-              <p className='mb-4 flex items-center gap-2'>
-                <Panda size={20} />
-                <span>Bear: 14/18 UTC</span>
-              </p>
+          <AllianceCard
+            sortCode='DRS'
+            name='DarkStar'
+            description='Elite strike force specializing in rapid assaults across frozen terrain. Known for their coordinated pack tactics.'
+            cjTime='15 UTC'
+            bearTime='14/18 UTC'
+            foundryTime='14 /19 UTC'
+            canyonTime='14 /19 UTC'
+            members='97'
+            powerRank='#1 with 20B+ Power'
+          />
 
-              <p className='mb-4 flex items-center gap-2'>
-                <Swords size={20} />
-                <span>Foundry: 14 /19 UTC</span>
-              </p>
+          <AllianceCard
+            sortCode='DRK'
+            name='DARKNESS'
+            description='Fearless warriors who thrive in the coldest conditions. Specialists in breaking enemy fortifications.'
+            cjTime='-'
+            bearTime='-'
+            foundryTime='-'
+            canyonTime='-'
+            members='100'
+            powerRank='#2 with 20B+ Power'
+          />
 
-              <p className='mb-4 flex items-center gap-2'>
-                <BowArrow size={20} />
-                <span>Canyon Clash: 14 /19 UTC</span>
-              </p>
+          <AllianceCard
+            sortCode='ONE'
+            name='WeAreONE'
+            description='Masters of defensive strategy, protecting our territories during the harshest blizzards.'
+            cjTime='-'
+            bearTime='-'
+            foundryTime='-'
+            canyonTime='-'
+            members='72'
+            powerRank='#3 with 11B+ Power'
+          />
 
-              <div className='flex justify-between text-sm'>
-                <span>
-                  <i className='fas fa-user mr-1'></i> 97 Members
-                </span>
-                <span>
-                  <i className='fas fa-star mr-1 text-yellow-400'></i> Power
-                  Rank: #1 with 20B+ Power
-                </span>
-              </div>
-            </div>
-          </div>
+          <AllianceCard
+            sortCode='SAN'
+            name='SANTUARY'
+            description='Stealth specialists who excel at reconnaissance and ambush tactics in snowy conditions.'
+            cjTime='-'
+            bearTime='-'
+            foundryTime='-'
+            canyonTime='-'
+            members='79'
+            powerRank='#4 with 9B+ Power'
+          />
 
-          <div className='frost-glass rounded-lg overflow-hidden transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-primary/30'>
-            <div className='h-3 bg-gradient-to-r from-primary to-secondary'></div>
-            <div className='p-6'>
-              <div className='flex items-center mb-4'>
-                <div className='hexagon w-12 h-12 flex items-center justify-center mr-3'>
-                  <span className='text-primary font-bold'>DRK</span>
-                </div>
-                <h3 className='text-xl font-bold font-title'>DARKNESS</h3>
-              </div>
-              <p className='mb-4'>
-                Fearless warriors who thrive in the coldest conditions.
-                Specialists in breaking enemy fortifications.
-              </p>
-                  <p className='mb-4 flex items-center gap-2'>
-                <Flame size={20} />
-                <span>Crazy Joy: -</span>
-              </p>
-              <p className='mb-4 flex items-center gap-2'>
-                <Panda size={20} />
-                <span>Bear: -</span>
-              </p>
+          <AllianceCard
+            sortCode='MSF'
+            name='MISFITS'
+            description='Close-combat specialists with unmatched skill in winter warfare and resource acquisition.'
+            cjTime='-'
+            bearTime='-'
+            foundryTime='-'
+            canyonTime='-'
+            members='54'
+            powerRank='#5 with 8B+ Power'
+          />
 
-              <p className='mb-4 flex items-center gap-2'>
-                <Swords size={20} />
-                <span>Foundry: -</span>
-              </p>
-
-              <p className='mb-4 flex items-center gap-2'>
-                <BowArrow size={20} />
-                <span>Canyon Clash: -</span>
-              </p>
-              <div className='flex justify-between text-sm'>
-                <span>
-                  <i className='fas fa-user mr-1'></i> 100 Members
-                </span>
-                <span>
-                  <i className='fas fa-star mr-1 text-yellow-400'></i> Power
-                  Rank: #2 with 20B+ Power
-                </span>
-              </div>
-            </div>
-          </div>
-
-          <div className='frost-glass rounded-lg overflow-hidden transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-primary/30'>
-            <div className='h-3 bg-gradient-to-r from-primary to-secondary'></div>
-            <div className='p-6'>
-              <div className='flex items-center mb-4'>
-                <div className='hexagon w-12 h-12 flex items-center justify-center mr-3'>
-                  <span className='text-primary font-bold'>ONE</span>
-                </div>
-                <h3 className='text-xl font-bold font-title'>WeAreONE</h3>
-              </div>
-              <p className='mb-4'>
-                Masters of defensive strategy, protecting our territories during
-                the harshest blizzards.
-              </p>
-                  <p className='mb-4 flex items-center gap-2'>
-                <Flame size={20} />
-                <span>Crazy Joy: -</span>
-              </p>
-              <p className='mb-4 flex items-center gap-2'>
-                <Panda size={20} />
-                <span>Bear: -</span>
-              </p>
-
-              <p className='mb-4 flex items-center gap-2'>
-                <Swords size={20} />
-                <span>Foundry: -</span>
-              </p>
-
-              <p className='mb-4 flex items-center gap-2'>
-                <BowArrow size={20} />
-                <span>Canyon Clash: -</span>
-              </p>
-              <div className='flex justify-between text-sm'>
-                <span>
-                  <i className='fas fa-user mr-1'></i> 72 Members
-                </span>
-                <span>
-                  <i className='fas fa-star mr-1 text-yellow-400'></i> Power
-                  Rank: #3 with 11B+ Power
-                </span>
-              </div>
-            </div>
-          </div>
-
-          <div className='frost-glass rounded-lg overflow-hidden transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-primary/30'>
-            <div className='h-3 bg-gradient-to-r from-primary to-secondary'></div>
-            <div className='p-6'>
-              <div className='flex items-center mb-4'>
-                <div className='hexagon w-12 h-12 flex items-center justify-center mr-3'>
-                  <span className='text-primary font-bold'>SAN</span>
-                </div>
-                <h3 className='text-xl font-bold font-title'>SANTUARY</h3>
-              </div>
-              <p className='mb-4'>
-                Stealth specialists who excel at reconnaissance and ambush
-                tactics in snowy conditions.
-              </p>
-                  <p className='mb-4 flex items-center gap-2'>
-                <Flame size={20} />
-                <span>Crazy Joy: -</span>
-              </p>
-              <p className='mb-4 flex items-center gap-2'>
-                <Panda size={20} />
-                <span>Bear: -</span>
-              </p>
-
-              <p className='mb-4 flex items-center gap-2'>
-                <Swords size={20} />
-                <span>Foundry: -</span>
-              </p>
-
-              <p className='mb-4 flex items-center gap-2'>
-                <BowArrow size={20} />
-                <span>Canyon Clash: -</span>
-              </p>
-              <div className='flex justify-between text-sm'>
-                <span>
-                  <i className='fas fa-user mr-1'></i> 79 Members
-                </span>
-                <span>
-                  <i className='fas fa-star mr-1 text-yellow-400'></i> Power
-                  Rank: #4 with 9B+ Power
-                </span>
-              </div>
-            </div>
-          </div>
-
-          <div className='frost-glass rounded-lg overflow-hidden transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-primary/30'>
-            <div className='h-3 bg-gradient-to-r from-primary to-secondary'></div>
-            <div className='p-6'>
-              <div className='flex items-center mb-4'>
-                <div className='hexagon w-12 h-12 flex items-center justify-center mr-3'>
-                  <span className='text-primary font-bold'>MSF</span>
-                </div>
-                <h3 className='text-xl font-bold font-title'>MISFITS</h3>
-              </div>
-              <p className='mb-4'>
-                Close-combat specialists with unmatched skill in winter warfare
-                and resource acquisition.
-              </p>
-                  <p className='mb-4 flex items-center gap-2'>
-                <Flame size={20} />
-                <span>Crazy Joy: -</span>
-              </p>
-              <p className='mb-4 flex items-center gap-2'>
-                <Panda size={20} />
-                <span>Bear: -</span>
-              </p>
-
-              <p className='mb-4 flex items-center gap-2'>
-                <Swords size={20} />
-                <span>Foundry: -</span>
-              </p>
-
-              <p className='mb-4 flex items-center gap-2'>
-                <BowArrow size={20} />
-                <span>Canyon Clash: -</span>
-              </p>
-              <div className='flex justify-between text-sm'>
-                <span>
-                  <i className='fas fa-user mr-1'></i> 54 Members
-                </span>
-                <span>
-                  <i className='fas fa-star mr-1 text-yellow-400'></i> Power
-                  Rank: #5 with 8B+ Power
-                </span>
-              </div>
-            </div>
-          </div>
-
-          <div className='frost-glass rounded-lg overflow-hidden transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-primary/30'>
-            <div className='h-3 bg-gradient-to-r from-primary to-secondary'></div>
-            <div className='p-6'>
-              <div className='flex items-center mb-4'>
-                <div className='hexagon w-12 h-12 flex items-center justify-center mr-3'>
-                  <span className='text-primary font-bold'>GER</span>
-                </div>
-                <h3 className='text-xl font-bold font-title'>Irrenhaus</h3>
-              </div>
-              <p className='mb-4'>
-                Strategic thinkers and tacticians who coordinate our
-                alliance&apos;s movements across the battlefield.
-              </p>
-                  <p className='mb-4 flex items-center gap-2'>
-                <Flame size={20} />
-                <span>Crazy Joy: -</span>
-              </p>
-              <p className='mb-4 flex items-center gap-2'>
-                <Panda size={20} />
-                <span>Bear: -</span>
-              </p>
-
-              <p className='mb-4 flex items-center gap-2'>
-                <Swords size={20} />
-                <span>Foundry: -</span>
-              </p>
-
-              <p className='mb-4 flex items-center gap-2'>
-                <BowArrow size={20} />
-                <span>Canyon Clash: -</span>
-              </p>
-              <div className='flex justify-between text-sm'>
-                <span>
-                  <i className='fas fa-user mr-1'></i> 57 Members
-                </span>
-                <span>
-                  <i className='fas fa-star mr-1 text-yellow-400'></i> Power
-                  Rank: #6 with 7B+ Power
-                </span>
-              </div>
-            </div>
-          </div>
+          <AllianceCard
+            sortCode='GER'
+            name='Irrenhaus'
+            description='Strategic thinkers and tacticians who coordinate our alliance’s movements across the battlefield.'
+            cjTime='-'
+            bearTime='-'
+            foundryTime='-'
+            canyonTime='-'
+            members='57'
+            powerRank='#6 with 7B+ Power'
+          />
         </div>
       </div>
     </section>

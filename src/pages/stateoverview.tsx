@@ -22,7 +22,7 @@ export default function StateOverview() {
         <div className='w-24 h-1 bg-primary mx-auto mb-8' />
       </div>
 
-      <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ml-8'>
+      <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 items-center'>
         <div className='frost-glass p-8 rounded-lg glow-border'>
           <h3 className='text-3xl font-bold mb-6 text-primary font-title'>
             Welcome to State 1307
