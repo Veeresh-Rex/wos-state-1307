@@ -1,5 +1,4 @@
 import AllianceCard from '@/components/allianceCard';
-import { BowArrow, Flame, Panda, Swords } from 'lucide-react';
 
 export default function AlliancePage() {
   return (
