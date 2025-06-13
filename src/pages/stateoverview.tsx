@@ -29,26 +29,25 @@ export default function StateOverview() {
           </h3>
           <p className='text-lg mb-6'>
             In the whiteout survival State 1307 has risen as a beacon of power
-            and unity. Our state has conquered the harshest winter battlefields
-            and emerged victorious against all odds.
+            and unity. Our state has conquered the harshest battlefields and
+            emerged victorious against all odds.
           </p>
 
           <p className='text-lg mb-6'>
-            With over 500 active warriors and 6 powerful alliances, defended our
-            territory for 120 consecutive days.
+            With over 500+ active warriors and 6 powerful alliances.
           </p>
 
           <div className='space-y-4 mt-8'>
             <div>
               <div className='flex justify-between mb-1'>
-                <span>SvS Vicitoris:</span>
+                <span>SvS Vicitoris</span>
                 <span>
-                  <i className='fas fa-star mr-1 text-yellow-400'></i>
-                  <i className='fas fa-star mr-1 text-yellow-400'></i>
-                  <i className='fas fa-star mr-1 text-yellow-400'></i>
-                  <i className='fas fa-star mr-1 text-yellow-400'></i>
-                  <i className='fas fa-star mr-1 text-yellow-400'></i>
-                  <i className='fas fa-star mr-1 text-yellow-400'></i>
+                  <i className='fas fa-star mr-1 text-yellow-400' />
+                  <i className='fas fa-star mr-1 text-yellow-400' />
+                  <i className='fas fa-star mr-1 text-yellow-400' />
+                  <i className='fas fa-star mr-1 text-yellow-400' />
+                  <i className='fas fa-star mr-1 text-yellow-400' />
+                  <i className='fas fa-star mr-1 text-yellow-400' />
                 </span>
               </div>
             </div>
