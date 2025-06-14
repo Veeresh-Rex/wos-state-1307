@@ -14,7 +14,7 @@ export default function StateOverview() {
   }, []);
 
   return (
-    <section className='bg-dark' id='overview'>
+    <section className='bg-dark mt-32' id='overview'>
       <div className='text-center mb-16'>
         <h2 className='text-4xl font-bold mb-4 font-title glow-text'>
           STATE OVERVIEW

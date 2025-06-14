@@ -77,7 +77,7 @@ export default function Members() {
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4 font-title glow-text">
-            ALLIANCE MEMBERS
+            STATE MEMBERS
           </h2>
           <div className="w-24 h-1 bg-primary mx-auto mb-8" />
           <p className="max-w-2xl mx-auto text-lg">
