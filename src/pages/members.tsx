@@ -77,7 +77,7 @@ export default function Members() {
           </h2>
           <div className='w-24 h-1 bg-primary mx-auto mb-8' />
           <p className='max-w-2xl mx-auto text-lg'>
-            Our alliance is built on the strength of every member. Together we
+            Our state is built on the strength of every member. Together we
             form an unstoppable force.
           </p>
         </div>
