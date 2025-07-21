@@ -25,7 +25,7 @@ export default function AlliancePage() {
             foundryTime='14 /19 UTC'
             canyonTime='14 /19 UTC'
             members='97'
-            powerRank='#1 with 20B+ Power'
+            powerRank='#1 with 26B+ Power'
           />
 
           <AllianceCard
@@ -37,7 +37,7 @@ export default function AlliancePage() {
             foundryTime='-'
             canyonTime='-'
             members='100'
-            powerRank='#2 with 20B+ Power'
+            powerRank='#2 with 18B+ Power'
           />
 
           <AllianceCard
