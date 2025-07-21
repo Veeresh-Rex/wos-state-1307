@@ -48,6 +48,7 @@ export default function StateOverview() {
                   <i className='fas fa-star mr-1 text-yellow-400' />
                   <i className='fas fa-star mr-1 text-yellow-400' />
                   <i className='fas fa-star mr-1 text-yellow-400' />
+                  <i className='fas fa-star mr-1 text-yellow-400' />
                 </span>
               </div>
             </div>
@@ -122,7 +123,7 @@ export default function StateOverview() {
           </div>
           <h4 className='text-xl font-bold mb-2 font-title'>6 SvS Victories</h4>
           <p>
-            Undefeated in the last 6 SvS wars across the winter battlefield.
+            Undefeated in the last 7 SvS wars across the winter battlefield.
           </p>
         </div>
 

@@ -41,18 +41,6 @@ export default function AlliancePage() {
           />
 
           <AllianceCard
-            sortCode='ONE'
-            name='WeAreONE'
-            description='Masters of defensive strategy, protecting our territories during the harshest blizzards.'
-            cjTime='-'
-            bearTime='-'
-            foundryTime='-'
-            canyonTime='-'
-            members='72'
-            powerRank='#3 with 11B+ Power'
-          />
-
-          <AllianceCard
             sortCode='SAN'
             name='SANTUARY'
             description='Stealth specialists who excel at reconnaissance and ambush tactics in snowy conditions.'
@@ -62,30 +50,6 @@ export default function AlliancePage() {
             canyonTime='Depeneds on Vote'
             members='79'
             powerRank='#4 with 9B+ Power'
-          />
-
-          <AllianceCard
-            sortCode='MSF'
-            name='MISFITS'
-            description='Close-combat specialists with unmatched skill in winter warfare and resource acquisition.'
-            cjTime='-'
-            bearTime='-'
-            foundryTime='-'
-            canyonTime='-'
-            members='54'
-            powerRank='#5 with 8B+ Power'
-          />
-
-          <AllianceCard
-            sortCode='GER'
-            name='Irrenhaus'
-            description='Strategic thinkers and tacticians who coordinate our alliance’s movements across the battlefield.'
-            cjTime='-'
-            bearTime='-'
-            foundryTime='-'
-            canyonTime='-'
-            members='57'
-            powerRank='#6 with 7B+ Power'
           />
         </div>
       </div>
